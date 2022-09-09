@@ -6,4 +6,4 @@ const myParty = function (age) {
   }
 };
 
-console.log(myParty(22));
+console.log(myParty(18));
