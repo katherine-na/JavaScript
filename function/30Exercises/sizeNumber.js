@@ -10,4 +10,4 @@ const sizeNumber = (num1, num2) => {
   }
 };
 
-console.log(sizeNumber(8, "n"));
+console.log(sizeNumber(8, 5));
