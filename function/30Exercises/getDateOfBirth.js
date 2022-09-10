@@ -1,4 +1,4 @@
-const getAge = function (yearOfBirth) {
+const calculateAge = function (yearOfBirth) {
   let fullYear = new Date();
   let currentYear = fullYear.getFullYear();
   let age = currentYear - yearOfBirth;
@@ -7,4 +7,4 @@ const getAge = function (yearOfBirth) {
   return message;
 };
 
-console.log(getAge(2001));
+console.log(calculateAge(2001));
