@@ -1,3 +1,5 @@
+// Crear un Algoritmo que te diga si un número es primo o no.
+
 const primeNumber = (n) => {
   let message = "";
   if (n % 2 === 1) {

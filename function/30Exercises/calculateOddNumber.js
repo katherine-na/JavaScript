@@ -1,3 +1,5 @@
+// Crear un Algoritmo que te diga si un número es par.
+
 const oddNumber = (n) => {
   let message = "";
   if (n % 2 === 0) {
