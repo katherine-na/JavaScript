@@ -1,3 +1,5 @@
+// Crear un Algoritmo que te de tu edad con solo tu año de nacimiento.
+
 const calculateAge = function (yearOfBirth) {
   let fullYear = new Date();
   let currentYear = fullYear.getFullYear();
