@@ -1,8 +1,10 @@
-const getAge = function (yearOfBirth, currentYear) {
-  const age = currentYear - yearOfBirth;
-  const message =
-    "You were born in " + yearOfBirth + " you are " + age + " years old";
+const getAge = function (yearOfBirth) {
+  let fullYear = new Date();
+  let currentYear = fullYear.getFullYear();
+  let age = currentYear - yearOfBirth;
+
+  let message = `You were born in ${yearOfBirth} you're ${age} years old`;
   return message;
 };
 
-console.log(getAge(2001, 2022));
+console.log(getAge(2001));
