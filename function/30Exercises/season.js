@@ -1,4 +1,4 @@
-const season = function (month) {
+const christmasSeason = function (month) {
   if (month === 12) {
     return "Its Christmas";
   } else {

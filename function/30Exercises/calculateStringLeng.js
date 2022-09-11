@@ -1,8 +1,5 @@
 // Crear un Algoritmo que te diga cuántas letras tiene una palabra.
 
-const calculateStringLenght = (str) => {
-  let string = str.length;
-  return string;
-};
+const calculateStringLenght = (str) => str.length;
 
 console.log(calculateStringLenght("parangaricutirimicuaro"));
