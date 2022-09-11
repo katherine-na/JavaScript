@@ -1,4 +1,4 @@
-var doHomeworkAlarm = function () {
-  console.log("Hey! You need to do your homework!");
-};
-var timeoutId = setTimeout(doHomeworkAlarm, 30000);
+const doHomeworkAlarm = () => console.log("Hey! You need to do your homework!");
+const timeoutId = setTimeout(doHomeworkAlarm, 30000);
+
+console.log(doHomeworkAlarm());
