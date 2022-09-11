@@ -10,6 +10,10 @@ Here, the function is defined starting with the function keyword then a name fol
 Function expression does not have a name, this is usually called an anonymous function. The value of the function cannot be used until it is stored in a variable.  
 <img src="functionExpression.png" align="center">
 
+```js
+my cool function
+```
+
 ## Arrow Function
 
 An arrow function is a cleaner, concise & a compact alternative to a traditional function expression, but is limited and can't be used in all situations. Here is how we write the above function using the Arrow function syntax.
@@ -24,9 +28,13 @@ you can define your function dynamically using Function() constructor along with
 
 ### Anonynous Function
 
+Anonymous functions in JavaScript is a function that does not have any name associated with it. We use only the function keyword without the function name.
+
 ### Fart Function
 
 ### IIFE
+
+An IIFE (Immediately Invoked Function Expression) is a JavaScript function that runs as soon as it is defined.
 
 ## Concerns
 

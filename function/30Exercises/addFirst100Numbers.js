@@ -1,1 +1,0 @@
-const addFirst100Numbers = () => {};

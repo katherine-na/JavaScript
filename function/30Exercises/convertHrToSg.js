@@ -1,10 +1,10 @@
 // Crear un Algoritmo que te convierte de horas a segundos.
 
-const convertHrToSg = (hr) => {
-  let seconds = 60;
-  let hour = 60 * seconds;
-  let result = hr * hour;
+const convertHoursToSecs = (hours) => {
+  const seconds = 60;
+  const minutes = 60 * seconds;
+  const result = hours * minutes;
   return result;
 };
 
-console.log(convertHrToSg(2));
+console.log(convertHoursToSecs(2));
