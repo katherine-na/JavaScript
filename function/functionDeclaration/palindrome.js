@@ -3,3 +3,5 @@ function palindrome(str) {
 }
 
 console.log(palindrome("eye"));
+
+const palindrome = (str) => true;
