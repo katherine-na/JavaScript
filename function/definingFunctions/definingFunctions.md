@@ -117,6 +117,22 @@ An IIFE (Immediately Invoked Function Expression) is a JavaScript function that 
 
 ### Scope
 
+Scope in JavaScript refers to the current context of code, which determines the accessibility of variables to JavaScript.  
+The two types of scope are local and global: Global variables are those declared outside of a block
+
+```js
+const globalScope =
+  "I'm a global scope variable because i'm outside of a block!";
+```
+
+```js
+const Scope = function () {
+  const localScope = "I'm inside of a block, i'm a local variable";
+};
+```
+
+Variables that are declared inside a function are called local variables and in the function scope.
+
 ### `this` Keyword
 
 ### Hoisting
