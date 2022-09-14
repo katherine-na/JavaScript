@@ -103,7 +103,9 @@ console.log(sum(2, 6));
 
 Anonymous functions in JavaScript is a function that does not have any name associated with it. We use only the function keyword without the function name.
 
-### Fart Function
+```js
+const anonymousFunction = function() ;
+```
 
 ### IIFE
 
