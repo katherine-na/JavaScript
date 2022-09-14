@@ -115,6 +115,12 @@ An IIFE (Immediately Invoked Function Expression) is a JavaScript function that 
 
 ### Arguments
 
+An Argument or parameter is a named variable passed into a function. Parameter variables are used to import arguments into functions.
+
+```js
+const exampleArguments = function (parameter);
+```
+
 ### Scope
 
 Scope in JavaScript refers to the current context of code, which determines the accessibility of variables to JavaScript.  
