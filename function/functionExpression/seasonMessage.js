@@ -1,4 +1,6 @@
-const getSeasonMessage = function (season) {
+// crear una expresion segun la temporada
+
+const seasonMessage = function (season) {
   let message = "";
   switch (season) {
     case "spring":
@@ -24,4 +26,4 @@ const getSeasonMessage = function (season) {
   return message;
 };
 
-console.log(getSeasonMessage("hola"));
+console.log(seasonMessage("hola"));

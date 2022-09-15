@@ -1,6 +1,8 @@
-function palindrome(str) {
+// Saber si un string es palindrome
+
+function palindrome(string) {
   const re = /[\W_]/g;
-  const lowRegStr = str.toLowerCase().replace(re, "");
+  const lowRegStr = string.toLowerCase().replace(re, "");
   const reverseStr = lowRegStr.split("").reverse().join("");
   return reverseStr === lowRegStr;
 }

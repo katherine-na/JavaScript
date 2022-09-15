@@ -1,3 +1,5 @@
+// Devolver un saludo dependiendo la hora
+
 const greetMessage = (time, name) => {
   if (time <= 7) {
     return "Good Morning " + `${name}`;

@@ -1,3 +1,5 @@
+// Devolver mensaje usando map
+
 const users = [
   { name: "Claudia", age: "43", ocupation: "house wife" },
   { name: "Liz", age: 27, ocupation: "studient" },

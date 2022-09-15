@@ -1,3 +1,5 @@
+// Devolver un string en mayusculas
+
 const stringToUpperCase = (str) => {
   let strSplit = str.split("");
   let array = [];

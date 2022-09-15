@@ -1,3 +1,5 @@
+// Agregar numeros pares a un array
+
 const oddNumbers = (a, b) => {
   let arr = [];
   for (let i = a; i < b; i++) {

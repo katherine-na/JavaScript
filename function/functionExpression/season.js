@@ -1,3 +1,5 @@
+// Algoritmo para saber si ya es Navidad
+
 const christmasSeason = function (month) {
   if (month === 12) {
     return "Its Christmas";
