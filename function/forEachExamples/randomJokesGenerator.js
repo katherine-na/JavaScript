@@ -1,3 +1,5 @@
+// forEach devuelve una broma por cada elemento del array jokes
+
 const jokes = [
   "A Pen is worth a thousand docs",
   "Be the developer your linter thinks you are",
@@ -9,7 +11,3 @@ const jokes = [
 const jokesArray = jokes.forEach((joke, index) => {
   console.log(index, joke);
 });
-
-const colors = ["Pink", "Yellow", "Blue", "Green", "Black", "White", "Purple"];
-
-colors.forEach((color) => console.log(color));

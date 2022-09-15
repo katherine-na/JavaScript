@@ -1,3 +1,4 @@
+// crear una expresion segun el color del semaforo
 const trafficLightGenerator = function (lightColor) {
   let message = "";
   switch (lightColor) {

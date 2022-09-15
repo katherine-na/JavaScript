@@ -1,3 +1,5 @@
+// Validar si un numero es mayor, menor o igual al otro
+
 const numberValidator = (num1, num2) => {
   if (num1 < num2) {
     return num1 + " is less than " + num2;

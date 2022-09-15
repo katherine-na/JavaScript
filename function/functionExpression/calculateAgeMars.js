@@ -1,4 +1,6 @@
-const getAge = function (age) {
+// Calcular edad en Marte con tu edad
+
+const ageInMars = function (age) {
   return age - 14;
 };
 

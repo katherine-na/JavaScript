@@ -1,3 +1,5 @@
-const getFullName = (name, lname) => `${name} ${lname}`;
+// Devolver mensaje con tu nombre
 
-console.log(getFullName("Katherine", "Negrete"));
+const fullNameMessage = (name, lname) => `Hello ${name} ${lname} Wellcome!`;
+
+console.log(fullNameMessage("Katherine", "Negrete"));

@@ -1,3 +1,5 @@
+// Devolver el numero mayor o el numero menor de un array
+
 const numbers = [4, 8, 2, 3];
 let maximum = -Infinity;
 let minium = Infinity;

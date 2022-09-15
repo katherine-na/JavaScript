@@ -1,3 +1,5 @@
+// Devolver un numero al reves
+
 function reverseNumber(x) {
   x = x + "";
   return x.split("").reverse().join("");
