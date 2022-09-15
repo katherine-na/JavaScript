@@ -1,6 +1,7 @@
-const calculateAge2050 = (age) => {
+const calculateAge2050 = () => {
   let year = new Date();
   let currentYear = year.getFullYear;
+  let result = 
 };
 
-console.log(calculateAge2050(42));
+console.log(calculateAge2050());
