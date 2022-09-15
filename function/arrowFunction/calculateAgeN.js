@@ -1,7 +1,8 @@
-const calculateAge2050 = () => {
-  let year = new Date();
-  let currentYear = year.getFullYear;
-  let result = 
+const calculateAge2050 = (age) => {
+  let date = new Date();
+  let currentYear = date.getFullYear();
+  let result = 2050 - currentYear + age;
+  return result;
 };
 
-console.log(calculateAge2050());
+console.log(calculateAge2050(21));

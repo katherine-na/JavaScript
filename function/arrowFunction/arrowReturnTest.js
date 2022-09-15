@@ -1,5 +1,3 @@
-const difference = (a, b) => a - b;
-
 const convertYearToWeeks = (year) => {
   const monthInYear = 12;
   const weeksInMonth = 4.34;
