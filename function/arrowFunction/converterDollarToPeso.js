@@ -1,6 +1,6 @@
 const convertDollarToPeso = (dollar) => {
-  const oneDollar = 19.84;
-  return dollar * oneDollar;
+  const dollarInMxn = 19.84;
+  return dollar * dollarInMxn;
 };
 
 console.log(convertDollarToPeso(2));
