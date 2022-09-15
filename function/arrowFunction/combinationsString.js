@@ -1,7 +1,6 @@
 const reverseString = (str) => {
-  const reverse = str.split("");
+  const reverse = str.split("").reverse().join("");
 
   return reverse;
-
-
-console.log(reverseString("dog"));
+};
+console.log(reverseString("JavaScript"));

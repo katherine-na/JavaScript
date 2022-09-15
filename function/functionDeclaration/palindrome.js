@@ -1,7 +1,8 @@
 function palindrome(str) {
-  return true;
+  const re = /[\W_]/g;
+  const lowRegStr = str.toLowerCase().replace(re, "");
+  const reverseStr = lowRegStr.split("").reverse().join("");
+  return reverseStr === lowRegStr;
 }
-
 console.log(palindrome("eye"));
-
-const palindrome = (str) => true;
+console.log(palindrome("not palindrome"));

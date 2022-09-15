@@ -5,6 +5,5 @@ const calculateDiscount = (discount, originalPrice) => {
   const discountPrice = discountOff * originalPrice;
   const result = originalPrice - discountPrice;
   return result;
-
-
+};
 console.log(calculateDiscount(50, 1000));
