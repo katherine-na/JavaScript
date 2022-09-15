@@ -1,3 +1,3 @@
-const greeting = ["Hello", "Good Morning", "Good Afternoon", "Good Night"];
+const greetings = ["Hello", "Good Morning", "Good Afternoon", "Good Night"];
 
-const greetingMessage = greeting.forEach((greet) => console.log(`${greet}`));
+greetings.forEach((greet) => console.log(`${greet}`));

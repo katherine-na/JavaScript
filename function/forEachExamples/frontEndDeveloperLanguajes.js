@@ -1,5 +1,3 @@
-const languajesFrontEnd = ["HTML", "CSS", "JavaScript", "Sass", "Bootstrap"];
+const frontEndTools = ["HTML", "CSS", "JavaScript", "Sass", "Bootstrap"];
 
-const messageLanguajes = languajesFrontEnd.forEach((languaje) =>
-  console.log(`I want to learn ${languaje}`)
-);
+frontEndTools.forEach((tool) => console.log(`I want to learn ${tool}`));

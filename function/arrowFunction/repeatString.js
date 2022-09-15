@@ -6,3 +6,4 @@ const repeatString = (string, number) => {
 };
 
 console.log(repeatString("Hello ", 6));
+
